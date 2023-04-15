@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	</head>
+		<body>
+		<div class="calculator">
+			<div class="calculator-display">
+				<input type="text" class="calculator-display-input" id="display" readonly>
+			</div>
+			<div class="calculator-row">
+				<button class="calculator-button" id="clear">AC</button>
+				<button class="calculator-button" id="delete">DEL</button>
+				<button class="calculator-button" id="percent">%</button>
+				<button class="calculator-button" id="divide">÷</button>
+			</div>
+			<div class="calculator-row">
+				<button class="calculator-button" id="seven">7</button>
+				<button class="calculator-button" id="eight">8</button>
+				<button class="calculator-button" id="nine">9</button>
+				<button class="calculator-button" id="multiply">×</button>
+			</div>
+			<div class="calculator-row">
+				<button class="calculator-button" id="four">4</button>
+				<button class="calculator-button" id="five">5</button>
+				<button class="calculator-button" id="six">6</button>
+				<button class="calculator-button" id="subtract">-</button>
+			</div>
+			<div class="calculator-row">
+				<button class="calculator-button" id="one">1</button>
+				<button class="calculator-button" id="two">2</button>
+				<button class="calculator-button" id="three">3</button>
+				<button class="calculator-button" id="add">+</button>
+			</div>
+			<div class="calculator-row">
+				<button class="calculator-button" id="zero">0</button>
+				<button class="calculator-button" id="decimal">.</button>
+				<button class="calculator-button" id="equals">=</button>
+				<button class="calculator-button" id="History" style="font-size: 18px;">History</button>
+				<script src="{% static 'js/scripts.js' %}"></script>
+
+			</div>
+			<div>
+		</div>
+		</body>
+</html>
